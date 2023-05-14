@@ -4,8 +4,8 @@ with open("README.md", "r", encoding = "utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name = "TaPCAP",
-    version = "1.0",
+    name = "tapcap",
+    version = "1.4",
     author = "Maya Kapoor",
     author_email = "mkapoor1@uncc.edu",
     description = "A network packet tabularization tool",
@@ -20,12 +20,10 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    python_requires = ">=3.6",
     entry_points={
         "console_scripts": [
             "tapcap = tapcap:main"
         ]
-    },
-    package_dir = {""},
-    packages = setuptools.find_packages(where=""),
-    python_requires = ">=3.6"
+    }
 )
