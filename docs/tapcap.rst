@@ -23,10 +23,10 @@ Usage
 
 **CLI:**
 
-..code-block::
+.. code-block::
 
   tapcap
-  
+
 **source file:**
 
 .. code-block::
