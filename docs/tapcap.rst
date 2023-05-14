@@ -7,19 +7,6 @@ TaPCAP provides the ability to "tap" into packet capture files (PCAP or PCAPNG),
 decode bytes into readable human format, and extract specific header fields in
 order to create tabular feature data.
 
-.. code-block::
-
-  Forager: A Network Training Classification Toolkit.
-         Please choose a task:
-
-  => tabularize packet data (TapCap)
-    mine tokens only (RExACtor)
-    generate regular expression signatures (RExACtor)
-    configure and train models (ALPINE, PALM, MAPLE, DATE)
-    classify packets (ALPINE, PALM, MAPLE, DATE)
-    clear current cache
-
-
 Installation
 ~~~~~~~~~~~~~
 
@@ -33,6 +20,14 @@ Or, if you have pip installed::
 
 Usage
 ~~~~~~
+
+**CLI:**
+
+..code-block::
+
+  tapcap
+  
+**source file:**
 
 .. code-block::
 
