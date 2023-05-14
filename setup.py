@@ -5,7 +5,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setuptools.setup(
     name = "tapcap",
-    version = "1.4",
+    version = "1.5",
     author = "Maya Kapoor",
     author_email = "mkapoor1@uncc.edu",
     description = "A network packet tabularization tool",
@@ -14,6 +14,7 @@ setuptools.setup(
     url = "https://github.com/mayakapoor/tapcap",
     project_urls = {
         "Bug Tracker": "https://github.com/mayakapoor/tapcap/issues",
+        "Documentation": "https://tapcap.readthedocs.io/en/latest/"
     },
     classifiers = [
         "Programming Language :: Python :: 3",
