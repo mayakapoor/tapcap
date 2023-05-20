@@ -31,7 +31,7 @@ Usage
 
 .. code-block::
 
-  usage: tapcap.py [-h] --pcap <input pcap file> --csv <output csv file>
+  usage: python3 tapcap.py [-h] --pcap <input pcap file> --csv <output csv file>
   optional arguments:
   -h, --help               show this help message and exit
   --pcap <input pcap file> pcap file to parse
